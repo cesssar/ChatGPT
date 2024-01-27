@@ -7,9 +7,9 @@ warnings.simplefilter("ignore", DeprecationWarning)
 
 class IA():
 
-    def __init__(self, questao):
+    def __init__(self, questao, api_key):
         self.questao = questao
-        self.api_key = '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'
+        self.api_key = api_key
 
     def resposta(self) -> str:
         try:

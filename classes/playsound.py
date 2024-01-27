@@ -7,6 +7,7 @@ class PlaySound():
         self.texto = texto
 
     def play(self):
+        mixer.pre_init(44100, -16, 1, 512)
         mixer.init()
         mixer.music.load('audio.mp3')
         mixer.music.play()

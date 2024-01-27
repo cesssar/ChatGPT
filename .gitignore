@@ -1,2 +1,4 @@
 *.mp3
 classes/__pycache__
+.env
+venv/
