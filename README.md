@@ -23,6 +23,11 @@ pip install -r requirements.txt
 
 ''
 
+Necessário criar um arquivo com nome de .env na raiz do projeto. 
+Ou renomear o arquivo .env_exemplo para .env
+O conteúdo dele precisa ter a chave de API da OpenIA.
+Criar a conta e a chave de API em: https://openai.com/blog/openai-api
+
 ## 🚀 Executar
 
 Para executar o projeto, digitar na linha de comando:
