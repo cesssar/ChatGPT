@@ -4,6 +4,9 @@
 
 > Utiliza bibliotecas Python para transformar voz em texto, perguntar ao ChatGPT e devolver a resposta em texto e voz.
 
+<img src="https://raw.githubusercontent.com/cesssar/ChatGPT/main/captura.png" />
+
+
 ## 💻 Pré-requisitos
 
 Python 3.10 (testado nesta versão)
