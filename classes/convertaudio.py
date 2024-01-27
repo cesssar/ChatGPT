@@ -6,6 +6,7 @@ class ConvertAudio():
         pass
 
     def converter(self) -> str:
+        print("Faça sua pergunta por voz: ")
         try:
             microfone = sr.Recognizer()
             with sr.Microphone() as source:
